@@ -1,0 +1,33 @@
+COMPILATION INSRUCTIONS:
+
+1. login to omega server using your student id
+
+2. Copy the below files under hw4 folder
+
+    a)palindromic_decomp.c
+    b)all.txt
+    c)pal_1.txt
+
+3. Compile using below command:-
+    
+    gcc -o pal palindromic_decomp.c
+
+4. Run the code without input re direction(Enter inputs manually)
+
+	./pal
+
+5. Run the code with input re direction for all the three given task
+
+	./pal<all.txt
+
+6. Run the code with input redirection for task 3
+
+     ./pal<pal_1.txt
+
+7. To Check valgrind memory leaks(Enter inputs manually)
+     
+     valgrind --leak-check=yes ./pal
+
+8. To check valgrind memory leaks with input redirection
+     valgrind --leak-check=yes ./pal<all.txt
+     valgrind --leak-check=yes ./pal<pal_1.txt

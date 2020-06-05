@@ -1,0 +1,28 @@
+COMPILATION INSRUCTIONS:
+
+1. login to omega server using your student id
+
+2. Copy the below files under hw8 folder
+
+    a)graph.c
+    b)data1.txt
+    
+
+3. Compile using below command:-
+    
+    gcc -o graph graph.c
+
+4. Run the code without input re direction(Enter inputs manually)
+
+	./graph 
+(Enter -1 to exit)
+
+5. Run the code with input re direction
+
+	./graph<data1.txt
+
+
+6. To check valgrind memory leaks with input redirection
+   valgrind --leak-check=yes ./graph<data1.txt
+
+   

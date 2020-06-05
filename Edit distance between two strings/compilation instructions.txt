@@ -1,0 +1,28 @@
+COMPILATION INSRUCTIONS:
+
+1. login to omega server using your student id
+
+2. Copy the below files under hw7 folder
+
+    a)edit_distance.c
+    b)data1.txt
+
+3. Compile using below command:-
+    
+    gcc -o editD edit_distance.c
+
+4. Run the code without input re direction(Enter inputs manually)
+
+	./editD
+
+5. Run the code with input re direction
+
+	./editD <data1.txt
+
+7. To Check valgrind memory leaks(Enter inputs manually)
+     
+     valgrind --leak-check=yes ./editD
+
+8. To check valgrind memory leaks with input redirection
+     valgrind --leak-check=yes ./editD <data1.txt
+     

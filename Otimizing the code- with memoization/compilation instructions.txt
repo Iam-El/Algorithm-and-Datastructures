@@ -1,0 +1,28 @@
+COMPILATION INSRUCTIONS:
+
+1. login to omega server using your student id
+
+2. Copy the below files under hw6 folder
+
+    a)foo.c
+    b)data1.txt
+
+3. Compile using below command:-
+    
+    gcc -o foo foo.c
+
+4. Run the code without input re direction(Enter inputs manually)
+
+	./foo
+
+5. Run the code with input re direction
+
+	./foo<data1.txt
+
+7. To Check valgrind memory leaks(Enter inputs manually)
+     
+     valgrind --leak-check=yes ./foo
+
+8. To check valgrind memory leaks with input redirection
+     valgrind --leak-check=yes ./foo<data1.txt
+     
